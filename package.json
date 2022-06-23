@@ -1,0 +1,22 @@
+{
+  "name": "stellar",
+  "version": "1.0.0",
+  "description": "Serverless Cloud JavaScript API template",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "cloud",
+    "test": "cloud test"
+  },
+  "devDependencies": {
+    "@serverless/cloud": "^2.0.0"
+  },
+  "serverless": {
+    "app": "Stellar",
+    "org": "calpa"
+  },
+  "dependencies": {
+    "moment": "^2.29.3",
+    "node-telegram-bot-api": "^0.58.0"
+  }
+}
